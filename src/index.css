@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+/* 1. Fontu Google-dan import edirik */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+/* 2. Fontu Tailwind-ə dəyişən kimi tanıtdırırıq */
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+}
