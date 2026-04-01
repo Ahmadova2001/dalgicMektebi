@@ -10,7 +10,7 @@ const About = () => {
       name: "Kerem Deniz",
       role: "Təlimçi",
       image: "/kerem.avif",
-      description:"Kerem Deniz, 20 illik dalğıc təcrübəsi ilə dənizin sirlərini sizinlə bölüşür. Təhlükəsizliyi və peşəkarlığı əsas tutan Kerem, su altı dünyasını kəşf etmək istəyənlər üçün ideal bələdçidir. Dalış onun üçün sadəcə iş deyil, bir yaşam tərzidir."
+      description: "Kerem Deniz, 20 illik dalğıc təcrübəsi ilə dənizin sirlərini sizinlə bölüşür. Təhlükəsizliyi və peşəkarlığı əsas tutan Kerem, su altı dünyasını kəşf etmək istəyənlər üçün ideal bələdçidir. Dalış onun üçün sadəcə iş deyil, bir yaşam tərzidir."
     },
     {
       id: 2,
@@ -43,7 +43,6 @@ const About = () => {
           Beynəlxalq sertifikatlara malik təlimçilərimiz, dalışın bütün incəliklərini sizə öyrətmək və ilk nəfəsinizdən son dalışınıza qədər yanınızda olmaq üçün böyük bir həvəslə çalışırlar. Bizim komandamızda təhlükəsizlik, professional yanaşma və dostyana mühit həmişə ön plandadır. Gəlin, bu macəranı birlikdə yaşayaq!</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 px-6">
-
         {teamMembers.map((member) => (
           <div key={member.id} className="bg-blue-800 p-8 rounded-2xl flex flex-col items-center text-center shadow-lg">
             <img

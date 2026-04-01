@@ -20,7 +20,7 @@ const Main = () => {
         <div className="relative z-10 text-white">
           <h1 className="text-6xl md:text-8xl font-black text-[#FFD700] uppercase leading-none">AYME <br /> DALĞIC MƏKTƏBİ</h1>
           <p className="text-2xl md:text-3xl mt-6 font-bold uppercase tracking-wide">HƏYATINIZIN MACƏRALARINA DALIŞ EDİN</p>
-          <button className='mt-15'>
+          <button className='mt-15 relative z-10'>
             <Link to="/reservation" className=' bg-white text-blue-900 font-black py-4 px-12 rounded-full text-lg hover:bg-[#87CEFA] hover:scale-105 transition-all duration-300 shadow-xl uppercase'>REZERV EDIN</Link>
           </button>
         </div>
@@ -88,7 +88,6 @@ const Main = () => {
           <img src={isdu} alt="ISDU" className='w-40' />
         </div>
       </section>
-
       <section className="bg-white py-20 px-10">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
           <div>
