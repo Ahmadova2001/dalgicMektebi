@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
+import SocialIcons from './SocialIcons';
 
 const Header = () => {
   return (
@@ -21,11 +22,8 @@ const Header = () => {
         <Link to="/places" className="hover:text-[#FFD700] transition duration-300">BÖLGƏLƏR</Link>
         <Link to="/services" className="hover:text-[#FFD700] transition duration-300">XİDMƏTLƏR</Link>
         <Link to="/questions" className="hover:text-[#FFD700] transition duration-300">ÇSS</Link>
-        <div className="flex gap-4 border-l border-white/20 pl-4 ml-2">
-          <FaFacebookF className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
-          <FiTwitter className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
-          <FaInstagram className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
-          <CgProfile className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
+        <div className="flex items-center gap-4 border-l border-white/20 pl-4 ml-2">
+          <SocialIcons />
         </div>
         <Link to="/logIn" className="bg-[#FFD700] text-black px-5 py-2 rounded-full hover:bg-white transition duration-300">
           Giriş
